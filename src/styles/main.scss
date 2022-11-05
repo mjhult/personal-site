@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
+$dark-mode-bg: #02010A;
+$dark-mode-font-color: #F4F7F5;
+$primary: #519872;
+$light-mode-bg: $dark-mode-font-color;
+$light-mode-font-color: $dark-mode-bg;
+
 html,
 body {
     font-family: 'Noto Sans', sans-serif;
-    background-color: black;
-    color: white;
     overflow-x: hidden;
     margin: 0px;
     padding: 0px;
@@ -18,6 +22,10 @@ h2 {
     font-size: 2em;
 }
 
+h3 {
+    font-size: 1.6rem;
+}
+
 @media screen and (max-width: 500px) {
     .ParallaxHeader {
         .Text {
@@ -28,8 +36,23 @@ h2 {
     }
 }
 
+@media (prefers-color-scheme: dark) {
+    body, html {
+        background-color: $dark-mode-bg;
+        color: $dark-mode-font-color;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body, html {
+        background-color: $light-mode-bg;
+        color: $dark-mode-bg;
+    }
+}
+
 .ParallaxHeader {
     .Text {
+        color: $dark-mode-font-color;
         position: relative;
         top: 35vh;
         width: 20em;
