@@ -1,0 +1,59 @@
+$dark-mode-bg: #02010A;
+$dark-mode-font-color: #F4F7F5;
+$primary: #519872;
+$light-mode-bg: $dark-mode-font-color;
+$light-mode-font-color: $dark-mode-bg;
+
+@media screen and (max-width: 500px) {
+    .AboutItem {
+        left: 0px !important;
+        .Content {
+            text-align: center !important;
+        }
+    }
+}
+
+.AboutContainer {
+    position: relative;
+    width: 100%;
+    height: 30em;
+    text-align: center;
+
+    .AboutItems {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 50em;
+        min-width: 20em;
+        height: fit-content;
+        min-height: 20em;
+        margin: auto;
+        
+        
+        .AboutItem {
+            width: fit-content;
+            height: fit-content;
+            margin: 2em auto;
+            // border: #519872 solid 1px;
+            position: relative;
+            left: 3.5em;
+
+            .Content {
+                // display: inline;
+                text-align: left;
+                width: fit-content;
+                min-width: 20em;
+                svg {
+                    width: 2em;
+                    height: 2em;
+                    position: relative;
+                    top: 0.5em;
+                    color: $primary;
+                }
+                * {
+                    display: inline;
+                    margin: auto 5px;
+                }
+            }
+        }
+    }
+}

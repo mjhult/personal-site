@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client';
 import Parallax from './components/Parallax';
 import './styles/main.scss';
 import image from './images/mathew.png';
+import About from './containers/AboutContainer';
 
 const App = () => (
     <div className="MainContent">
@@ -16,6 +17,7 @@ const App = () => (
                 </h2>
             </div>
         </Parallax>
+        <About />
     </div>
 );
 
