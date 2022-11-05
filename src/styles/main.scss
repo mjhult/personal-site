@@ -1,4 +1,43 @@
-body, html {
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+html,
+body {
+    font-family: 'Noto Sans', sans-serif;
     background-color: black;
     color: white;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+@media screen and (max-width: 500px) {
+    .ParallaxHeader {
+        .Text {
+            margin: auto;
+            top: 0px !important;
+            text-align: center;
+        }
+    }
+}
+
+.ParallaxHeader {
+    .Text {
+        position: relative;
+        top: 35vh;
+        width: 20em;
+        h1 {
+            font-size: 5em;
+        }
+        h2 {
+            font-size: 3em;
+        }
+    }
 }
