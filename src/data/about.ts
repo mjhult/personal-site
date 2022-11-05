@@ -4,27 +4,27 @@ import { AboutItem } from "../utils/types/AboutItem";
 const about: AboutItem[] = [
     {
         title: 'Farmer',
-        icon: Icons.heart,
+        icon: Icons.eggHollow,
     },
     {
         title: 'Cat Dad',
-        icon: Icons.heart,
+        icon: Icons.heartHollow,
     },
     {
         title: 'Loving Fiancé',
-        icon: Icons.heart,
+        icon: Icons.heartHollow,
     },
     {
         title: 'Coffee Addict',
-        icon: Icons.heart,
+        icon: Icons.coffee,
     },
     {
         title: 'Business Owner',
-        icon: Icons.heart,
+        icon: Icons.briefCase,
     },
     {
         title: 'Codesmith Student',
-        icon: Icons.heart,
+        icon: Icons.code,
     },
     
 ];
