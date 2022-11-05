@@ -1,4 +1,4 @@
-# This is my personal website
+# This will be my personal website
 
 ## If you want to run locally, here's how:
 1. Clone this repo. ```git clone https://github.com/mjhult/personal-site```
