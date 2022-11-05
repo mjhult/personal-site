@@ -1,8 +1,14 @@
 .Parallax {
-
-    
+    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     .ParallaxContent {
-
+        position: relative;
+        margin: auto;
+        width: 95%;
+        height: 95%;
     }
 }
