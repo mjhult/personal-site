@@ -4,11 +4,20 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: black;
 
     .ParallaxContent {
         position: relative;
         margin: auto;
         width: 95%;
         height: 95%;
+    }
+}
+
+@supports (-webkit-touch-callout: none) {
+    .Parallax {
+        background: center top no-repeat fixed;
+        background-size: auto 100vh;
+        position: static;
     }
 }
