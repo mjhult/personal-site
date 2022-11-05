@@ -15,6 +15,7 @@ const App = () => (
                 <h2>
                     I'm Mathew.
                 </h2>
+                <p>W.I.P</p>
             </div>
         </Parallax>
         <About />
