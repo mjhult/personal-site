@@ -9,7 +9,7 @@ const Projects: FC<{ header?: string }> = ({ header }) => (
         </h1>
         <div className="ProjectList">
             { projects.map((project, i) => (
-                <ProjectItem key={i} title={project.title} desc={project.desc} image={project.image} imageAlt={project.imageAlt} />
+                <ProjectItem key={i} title={project.title} desc={project.desc} image={project.image} imageAlt={project.imageAlt} link={ project.link } />
             )) }
         </div>
     </div>
