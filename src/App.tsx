@@ -38,7 +38,7 @@ const App = () => {
                 <section className="Header">
                     <div className="HeaderContent">
                         <h1>
-                            Mathew Hulquist
+                            Mathew Hultquist
                         </h1>
                         <hr />
                         <h3>
