@@ -4,6 +4,7 @@ import Parallax from './components/Parallax';
 import './styles/main.scss';
 import image from './images/mathew.png';
 import About from './containers/AboutContainer';
+import Projects from './containers/ProjectContainer';
 
 const App = () => (
     <div className="MainContent">
@@ -19,6 +20,7 @@ const App = () => (
             </div>
         </Parallax>
         <About />
+        <Projects />
     </div>
 );
 

@@ -5,10 +5,13 @@ $light-mode-bg: $dark-mode-font-color;
 $light-mode-font-color: $dark-mode-bg;
 
 @media screen and (max-width: 500px) {
-    .AboutItem {
-        left: 0px !important;
-        .Content {
-            text-align: center !important;
+    .AboutContainer {
+        height: fit-content !important;
+        .AboutItem {
+            left: 0px !important;
+            .Content {
+                text-align: center !important;
+            }
         }
     }
 }
