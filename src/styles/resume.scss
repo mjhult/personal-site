@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap');
+
+$dark-mode-bg: #02010A;
+$dark-mode-font-color: #F4F7F5;
+$primary: #519872;
+$light-mode-bg: $dark-mode-font-color;
+$light-mode-font-color: $dark-mode-bg;
+
+@media screen and (max-width: 500px) {
+    .ResumeHeader {
+        margin: 2em auto !important;
+    }
+}
+
+.ResumeHeader {
+    text-align: center;
+    margin: 8em auto;
+    margin-bottom: 4em;
+    height: fit-content !important;
+}
+
+.Resume {
+    font-family: 'Roboto Mono', monospace;
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.7rem;
+    }
+    
+    h3 {
+        font-size: 1.3rem;
+    }
+    
+    h4 {
+        font-size: 1rem;
+    }
+    
+    a {
+        color: $primary;
+        margin-left: 1em;
+        transition: 300ms ease-in-out;
+    }
+    
+    a:hover {
+        opacity: 0.8;
+    }
+
+    height: fit-content !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    body, html {
+        background-color: $dark-mode-bg;
+        color: $dark-mode-font-color;
+    }
+    
+    p span {
+        color: $primary;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body, html {
+        background-color: $light-mode-bg;
+        color: $dark-mode-bg;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .ExperienceContainer, .EducationContainer, .SkillContainer {
+        text-align: center;
+        margin: 5em 0px;
+        div {
+            margin: 1.5em 0.1em;
+            text-align: left;
+        }
+    }
+
+    .Header {
+        width: 24rem !important;
+    }
+
+    .sideBySide {
+        display: block !important;
+    }
+
+    .SkillsContainer {
+        text-align: center !important;
+    }
+
+    // .DesktopSkills {
+    //     display: none;
+    // }
+
+    // .MobileSkills {
+    //     display: block !important;
+    // }
+}
+
+
+// Header
+.Header {
+    border: $primary solid 1px !important;
+    width: 50rem;
+    display: flex;
+    position: relative;
+    margin: auto;
+
+    .HeaderContent {
+        margin: auto;
+        text-align: center;
+        hr {
+            width: 10%;
+            min-width: 6rem;
+        }
+    }
+}
+
+// Items
+.sideBySide {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    margin: auto;
+    // border: red solid 1px;
+    width: 80%;
+
+    .right {
+        max-width: 20rem;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .left {
+        flex-grow: 2;
+
+        .ResumeItem {
+            margin-top: 3em;
+        }
+
+        .EducationContainer, .SkillContainer {
+            margin: 5em 0px;
+            div {
+                margin: 1.5em 0.3em;
+                // text-align: left;
+            }
+        }
+    }
+}
+
+// Resume items
+.ResumeItem {
+    margin: 2em 5px;
+}
+
+// .MobileSkills {
+//     display: none;
+// }
