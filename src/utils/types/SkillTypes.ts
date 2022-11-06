@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import Pointer from "./Pointers";
+import Pointer from "../Pointers";
 
 type SkillItem = {
     pointer: Pointer, 
