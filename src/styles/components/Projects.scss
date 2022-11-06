@@ -1,0 +1,78 @@
+$primary: #519872;
+
+@media screen and (max-width: 500px) {
+    .ProjectsContainer {
+        text-align: center;
+        .ProjectItem {
+            max-width: 24rem !important;
+            max-height: fit-content !important;
+            margin: 4em auto !important;
+            flex-direction: column;
+            left: 0px !important;
+        
+            img {
+                margin: auto;
+                width: 150px !important;
+                height: 150px !important;
+            }
+
+            p {
+                width: auto !important;
+            }
+
+            a {
+                top: 0px !important;
+                left: 0px !important;
+                width: 18em !important;
+                margin: 5px auto;
+            }
+        }    
+    }
+}
+
+.ProjectsContainer {
+    // This is jank, isn't it?
+    // I think this is caused by the manual placement of elements. Not to sure though.
+    overflow-y: hidden;
+    padding: 2em;
+
+    h1 {
+        text-align: center;
+    }
+
+    .ProjectItem {
+        display: flex;
+        max-width: 50rem;
+        max-height: 250px;
+        margin: 10px auto;
+        position: relative;
+        left: 4em;
+    
+        img {
+            border: rgba(255,255,255,0.3) solid 1px;
+            border-radius: 4px;
+            width: 200px;
+            height: 200px;
+        }
+
+        h2 {
+            font-weight: 600;
+        }
+
+        * {
+            margin: 8px;
+        }
+        
+        p {
+            width: 398px;
+        }
+
+        a {
+            color: $primary;
+            position: relative;
+            left: -26.5em;
+            top: 11em;
+            width: 30em;
+        }
+    }
+}
