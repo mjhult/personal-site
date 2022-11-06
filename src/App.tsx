@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
 import { createRoot } from 'react-dom/client';
 import Parallax from './components/Parallax';
-import './styles/main.scss';
-import image from './images/mathew.png';
 import About from './containers/AboutContainer';
 import Projects from './containers/ProjectContainer';
-import './styles/resume.scss';
 import Contact from './containers/ContactContainer';
 import Education from './containers/EducationContainer';
 import Experience from './containers/ExperienceContainer';
 import Skills from './containers/SkillsContainer';
+import image from './images/mathew.png';
+import './styles/resume.scss';
+import './styles/main.scss';
 
 const App = () => {
     const [ width, setWidth ] = useState(window.innerWidth);
-
     window.addEventListener('resize', () => setWidth(window.innerWidth));
+    
     return (
         <div className="MainContent">
             <Parallax background={image} contentClassName='ParallaxHeader' >
