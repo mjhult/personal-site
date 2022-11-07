@@ -116,7 +116,7 @@ const App = () => {
                             <Container header='Skills' className='SkillsContainer'>
                                 <div className="Skills">
                                     { skills.map((skill, i) => (
-                                        <SkillItem key={i} pointer={skill.pointer} space={skill.space} size={skill.size} skill={skill.skill} />
+                                        <SkillItem key={i} pointer={skill.pointer} space={skill.space} size={skill.size} skill={skill.skill} demo={skill.demo} />
                                     ))}
                                 </div>
                             </Container>
@@ -149,7 +149,7 @@ const App = () => {
                             <Container header='Skills' className='SkillsContainer'>
                                 <div className="Skills">
                                     { skills.map((skill, i) => (
-                                        <SkillItem key={i} pointer={skill.pointer} space={skill.space} size={skill.size} skill={skill.skill} />
+                                        <SkillItem key={i} pointer={skill.pointer} space={skill.space} size={skill.size} skill={skill.skill} demo={skill.demo} />
                                     ))}
                                 </div>
                             </Container>

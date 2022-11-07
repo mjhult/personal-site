@@ -1,5 +1,8 @@
+import React from "react";
+import ReactDemo from "../components/demos/ReactDemo";
 import Pointer from "../utils/Pointers";
 import SkillItem from "../utils/types/SkillTypes";
+
 
 const skills: SkillItem[] = [
     {
@@ -21,6 +24,7 @@ const skills: SkillItem[] = [
     {
         pointer: Pointer.Point,
         skill: 'React',
+        demo: <ReactDemo />,
     },
     {
         pointer: Pointer.Point,

@@ -158,3 +158,15 @@ $light-mode-font-color: $dark-mode-bg;
 // .MobileSkills {
 //     display: none;
 // }
+
+@media screen and (max-width: 500px) {
+    .SkillDemo {
+        margin: auto;
+        width: fit-content;
+    }
+}
+
+.SkillDemo {
+    border: $primary solid 1px;
+    padding: 10px;
+}

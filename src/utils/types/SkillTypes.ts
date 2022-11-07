@@ -8,7 +8,7 @@ type SkillItem = {
     skill: string | ReactElement,
     // Demo is used for skill demos when the user clicks on the skill.
     // An example would be React. We will have the user click the skill and drop down a button with state.
-    demo?: ReactElement,
+    demo?: JSX.Element | ReactElement,
 }
 
 export default SkillItem;

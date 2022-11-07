@@ -1,0 +1,26 @@
+$primary: #519872;
+$font-color: #F4F7F5;
+.ReactDemo {
+    .ReactDemo-buttons {
+        button {
+            width: 3em;
+            height: 1.4em;
+            font-size: 1.1em;
+            margin: auto 5px;
+            background: none;
+            color: $font-color;
+            border: $primary solid 1px;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .ReactDemo {
+        // display: flex;
+        flex-direction: column;
+        text-align: center;
+        div {
+            margin: auto;
+        }
+    }   
+}
