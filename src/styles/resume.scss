@@ -103,7 +103,9 @@ $light-mode-font-color: $dark-mode-bg;
 // Header
 .Header {
     border: $primary solid 1px !important;
-    width: 50rem;
+    width: 60%;
+    max-width: 50em;
+    min-width: 25em;
     display: flex;
     position: relative;
     margin: auto;
