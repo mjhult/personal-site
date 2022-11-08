@@ -33,7 +33,7 @@ $primary: #519872;
 .ProjectsContainer {
     // This is jank, isn't it?
     // I think this is caused by the manual placement of elements. Not to sure though.
-    overflow-y: hidden;
+    overflow: hidden;
     padding: 2em;
 
     h1 {
