@@ -51,20 +51,8 @@ $light-mode-font-color: $dark-mode-bg;
 }
 
 @media (prefers-color-scheme: dark) {
-    body, html {
-        background-color: $dark-mode-bg;
-        color: $dark-mode-font-color;
-    }
-    
     p span {
         color: $primary;
-    }
-}
-
-@media (prefers-color-scheme: light) {
-    body, html {
-        background-color: $light-mode-bg;
-        color: $dark-mode-bg;
     }
 }
 
