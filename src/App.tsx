@@ -104,11 +104,10 @@ const App = () => {
                                 Professional Summary
                             </h2>
                             <p>Experienced Web Developer adept in all stages of advanced web development. 
-                                Knowledgable in user interface, testing, and debugging processes. 
+                                Knowledgeable in user interface, testing, and debugging processes. 
                                 Bringing forth expertise in the design, installation, testing, and maintenance of web systems. 
-                                Equipped with a diverse and promising skill set. Proficient in an assortment of technologies, 
-                                including JavaScript, CSS, HTML, React, and Redux. Able to effectively self-manage during independant projects, 
-                                as well as collaborate in a team setting.</p>
+                                Equipped with a diverse and promising skill set. Proficient in an assortment of technologies, including JavaScript, CSS, HTML, React, and Redux. 
+                                Able to effectively self-manage during independent projects, as well as collaborate in a team setting.</p>
                         </div>
 
                         {/* Skills (desktop) */}
